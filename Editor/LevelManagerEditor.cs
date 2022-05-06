@@ -45,6 +45,7 @@ class LevelTool : EditorTool {
             Vector3 direction = go.transform.TransformVector(face.direction);
             if (Vector3.Dot(sceneView.camera.transform.forward, direction) < 0) {
                 if (Handles.Button(face.centre(), face.rotation(), size, pickSize, Handles.RectangleHandleCap)) {
+                    Undo.RecordObject(lm, "Changed voxel data");
                     if (adding) {
                         lm.AddBlock(face.position + face.direction);
                     } else {

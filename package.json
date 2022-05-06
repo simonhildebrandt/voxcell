@@ -1,0 +1,11 @@
+{
+  "name": "com.simonhildebrandt.voxcell",
+  "version": "0.0.1",
+  "description": "Basic tools to build voxel data",
+  "displayName": "Voxcell",
+  "author": {
+    "name": "Simon Hildebrandt",
+    "email" : "simonhildebrandt@gmail.com",
+    "url" : "https://github.com/simonhildebrandt/voxcell"
+  }
+}

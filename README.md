@@ -1,2 +1,2 @@
-# voxcell
-Basic tools to build voxel data
+# Voxcell
+Basic tools to build voxel data.
